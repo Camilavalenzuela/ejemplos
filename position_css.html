@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body{
+            background-color: rgb(172, 142, 199);
+            margin: auto;
+        }
+        
+        #contenedor_1{
+            background-color: rgb(84, 84, 237);
+            width: 45%;
+            height: 200px;
+            /*display: inline-block;*/
+        }
+        #contenedor_2{
+            background-color: rgb(118, 255, 191);
+            width: 45%;
+            height: 200px;
+            position:relative;
+            /*display: inline-block;*/
+        }
+            #subcontenedor{
+                background-color: rgb(7, 4, 6);
+                width: 45%;
+                height: 200px;
+                position: absolute;
+                top:100px;
+                left:300px;
+            }
+        #contenedor_3{
+            background-color: rgb(254, 154, 112);
+            width: 45%;
+            height: 200px;
+            position: sticky;
+            top:0;
+            /*display: inline-block;*/
+        }
+        #contenedor_4{
+            background-color: rgb(236, 255, 112);
+            width: 45%;
+            height: 800px;
+            /*display: inline-block;*/
+        }
+
+        #contenedor_5{
+            background-color: rgb(0, 179, 255);
+            width: 45%;
+            height: 500px;
+            position:fixed;
+            top:30px;
+            left:400px;
+            /*display: inline-block;*/
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- TODA LA INFORMACION AQUI: https://es.stackoverflow.com/questions/37930/cual-es-la-diferencia-entre-position-relative-position-absolute-y-position -->
+    
+    <div id="contenedor_1">hola</div>
+
+    <div id="contenedor_2">hola
+        <div id="subcontenedor">hola</div>
+    </div>
+
+    <div id="contenedor_3">hola</div>
+
+    <div id="contenedor_4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum sapiente sit nisi, similique asperiores facilis facere maxime, assumenda commodi veritatis placeat inventore molestias fugit sequi earum blanditiis quaerat esse!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestiae perferendis voluptates! Quis qui neque harum dolorem. Blanditiis, tenetur impedit laborum, soluta eius explicabo veritatis accusamus incidunt atque deserunt officiis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi, enim doloremque placeat adipisci cumque perspiciatis neque, at obcaecati quas doloribus corporis laudantium natus esse ipsa molestias sint. Iure, laboriosam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium nesciunt aperiam, neque hic voluptatibus id adipisci blanditiis velit earum nisi est tenetur nihil eaque qui ad perferendis? Ad, labore!
+    </div>
+
+    <div id="contenedor_5">hola</div>
+
+</body>
+</html>
